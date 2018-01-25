@@ -1,0 +1,11 @@
+/*============ Mobi payment logo===============*/
+.navbar-brand.payment{ font-size: 14px; color: #3a3a3a; display: inline-block; vertical-align: bottom; line-height: 35px;   font-family: 'titillium_websemibold'; margin-left: 20px;} 
+/*================ Thanks Block CSS : Start=========================*/
+#sorry-block{ background: #fff ;  width:100%; }
+#sorry-block .sorry-image img{ width: 120px; height: 97px; margin-top: 65px; margin-right: 28px;}
+#sorry-block .sorry-txt{ font-size: 19px ;  color: #df3349; font-family: 'titillium_websemibold'; margin-top: 10px; font-weight: 600;}
+#sorry-block .sorry-para{  font-size: 20px; color: #424242; font-family: 'titillium_webregular'; }
+#sorry-block .button { margin: 22px  0px 60px 0px; display: inline-block; vertical-align: middle;}
+#sorry-block .button a{ text-align: center; color:  #cc2c2c;  font-size: 12.8px; outline: none; text-decoration: none; line-height: 32px;  }
+/*================ Thanks Block CSS : Start=========================*/
+#sorry-block{ box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1); }
