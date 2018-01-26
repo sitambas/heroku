@@ -5,7 +5,13 @@ li{list-style-type: none;}
 a{ display: block; color: #fff; }
 .container {width: 1170px; padding-bottom: 0px;}
 .largenav {display: block; }
-
+@font-face {
+    font-family: 'AvenirNextLTPro-Demi';
+    src: url('../font/fonts/avenir-next-ro-demi.woff') format('woff'),
+    url('../font/fonts/avenir-next-ro-demi.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 /*=========Media Css=============*/
 @media only screen and (min-width: 768px){ a.navbar-brand.navbar-left.logo-icon{ display: inline-block; padding-left: 0; margin-left: 0;}, .small-nav>li>a{ padding: 0 0 0 10px;} 
 	.navbar-nav>li>a{
