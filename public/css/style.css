@@ -374,7 +374,7 @@ footer{  background:#202020; display: inline-block; width: 100%; }
 #example {margin-bottom: 76.5px; }
 #brand-block .mobi-brand.mobi-top{ margin-top: 25px; }
 /*============ Blog listing page css =======================*/
-.blog-card {width: 353px;display: inline-block;object-fit: contain;margin-right: 36px;margin-top:42px;}
+.blog-card {width: 353px;display: inline-block;object-fit: contain;margin-right: 36px;margin-top:38px;}
 .blog-card:nth-child(3n+3) {    margin-right: 0px;}
 .card-heading{font-size: 20px;font-weight: 600;font-style: normal;font-stretch: normal;line-height: normal;letter-spacing: normal;text-align: left;color: #282828;margin-top: 10px;}
 .breadcrumbs {margin-top: 50px; margin-bottom: 27px;  padding-left: 0px;}
@@ -394,9 +394,22 @@ footer{  background:#202020; display: inline-block; width: 100%; }
 	.blog-card:nth-child(3n+3) { margin-right: 0px;} 
 }
 
-@media only screen and (max-width: 768px){.container.blog-listing{width:96%; padding-bottom: 0px; } .blog-card:nth-child(3n+3) {    margin-right: 0px;} .blog-listing .blog-card {width: 100%; display: inline-block; float: left; margin-right: 30px; }
+@media only screen and (max-width: 768px){
+    .container.blog-listing{width:100%; padding-bottom: 0px; } 
+    .blog-card:nth-child(3n+3) {    margin-right: 0px;} 
+    .blog-listing .blog-card:first-child {margin-top: 12px;}
+    .blog-listing .blog-card {width: 100%; display: inline-block; float: left;margin-right: 0px;margin-top: 23px;background-color: #ffffff;border: solid 0.8px #e1e1e1; }
     .blog-card {width: 40%; display: inline-block; float: left; margin-right: 30px; }
-    .images-section img {width: 100%; } .breadcrumbs {display: none; } }
+    .images-section img {width: 100%; } 
+    .breadcrumbs {display: none; } 
+    .blog-listing .card-heading{font-size: 15.4px;}
+    .blog-listing .card-content{font-size: 13.2px;padding-right: 50px;}
+    .blog-listing .card-section .content-section {padding: 11px 14px 23px 14px; margin:auto;}
+    .blog-listing .container {padding-right: 10px;padding-left: 10px;margin-right: 0px;margin-left: 0px;}
+    .blog-listing .button.view-all a{border: 0px solid #36c07c;}
+    .blog-listing .clear{clear: both;}
+    .blog-listing .button.view-all {margin-top: 23px;margin-bottom:28px;}
+}
 @media screen and (min-width:768px) and (max-width:1200px){.blog-card{ margin: 25px;} .blog-card:nth-child(3n+3) {    margin-right: 23px;} .blog-card {width: 43%; } }
 
 /* Blog details page css  */
