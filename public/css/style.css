@@ -494,7 +494,7 @@ footer{  background:#202020; display: inline-block; width: 100%; }
 .total-right-col {font-size: 24px;font-weight: 600;font-style: normal;font-stretch: normal;line-height: normal;letter-spacing: normal;text-align: right;color: #262626;    position: relative;top: -8px;}
 .details-row {padding: 24px 24px 31px 24px;}
 .payment-button .button {border-radius: 22.8px;background-color: #36c07c;box-shadow: 0 6px 12px 0 rgba(54, 192, 124, 0.49);width: 245px;height: 45.5px;font-size: 16px;font-weight: 600;font-style: normal;font-stretch: normal;line-height: normal;letter-spacing: normal;text-align: center;color: #ffffff;margin: auto;float: none;line-height: 40px;}
-.payment-button {clear: both;padding: 15px 27px 27px 27px;width: 100%;text-align: center;}
+ .payment-button {padding: 27px 27px 27px 27px;}clear: both;padding: 15px 27px 27px 27px;width: 100%;text-align: center;}
 .cart .cart-section {margin-bottom: 125px;}
 .cart .price-dis {margin-top: 47px;}
 .mtop {margin-top: 80px;}
@@ -560,6 +560,7 @@ footer{  background:#202020; display: inline-block; width: 100%; }
 .row-payment-details:last-child .col-md-6 {
     padding-bottom: 0px;
 }
+.cartpage .payment-button {padding: 27px 27px 27px 27px;}
 @media only screen and (max-width: 768px){
     .cartpage .mtop{margin-top: 0px;}
     .cart { background: #fbfbfb; padding: 0px; width: 100%; text-align: center; } 
