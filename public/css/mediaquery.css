@@ -47,16 +47,19 @@ li{ list-style: none; }
  @media screen and (min-width: 768px) {.largenav {display: block; } .smallnav{display: none; } }
 @media screen and (max-height: 450px) {.sidenav a {font-size: 18px;} }
 
-@media (max-width: 768px) {.carousel-inner > .item > img{ width: 100%; height:236px; position:inherit; opacity: 0.71;} 
-#first-carousal .carousel .item{min-height: auto;}} 
+@media (max-width: 768px) {
+    .carousel-inner > .item > img{ width: 100%; height:236px; position:inherit; opacity: 0.71;} 
+    #first-carousal .carousel .item{min-height: auto;}
+   
+} 
 
 /*=================================*/
 @media screen and (min-width:767px){
     h1{ font-size: 48px; }
     h2{ font-size: 32px; color: #282828; line-height: 1.5; font-family: 'titillium_webbold'; font-weight: bold; margin-top: 0px; margin-bottom: 0px;}
     .icon-rignt > p{ color: #fff; font-size: 14px; }
-    #first-carousal .carousel-indicators{ bottom: 33px; }
-    ::placeholder {color: #fff; }
+    #first-carousal .carousel-indicators{ bottom: 0px; }
+    input::placeholder {color: #fff; }
 
 p{ color: #282828; font-size: 18px; line-height: 1.33; font-family: 'titillium_webregular'; }
 .brand-section h2{text-align: left;}
