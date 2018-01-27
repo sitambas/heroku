@@ -123,16 +123,8 @@ button.button.form-submit{ width: 138px; height: 39px; box-shadow: 0 11px 20px 0
 
 /*=============== Correction Css ===================*/
 /*==============Thanks Css Start====================*/
-#thank-block{ background-image: url("images/bg.png");background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: inherit;
-    background-position: top, left;}
-#thank-block .thanks-image img{ width: 135px; height: 101px; margin-top: 122px;}
-#thank-block .thanks-txt{ font-size: 24px ;  margin-top: 13px; font-weight: 600;}
-#thank-block .thanks-para{  font-size: 20px; margin-bottom: 28px; }
-#thank-block .button {  border-radius: 19.5px; width: 234px; height: 41px; margin: 0px  0px 90px 0px;}
-#thank-block .button a{ font-size: 16px; line-height: 41px;  }
-.ft-block{ margin-top: 0!important }
+
+.navbar-brand.payment{ font-size: 14px; color: #3a3a3a; display: inline-block; vertical-align: bottom; line-height: 35px;   font-family: 'titillium_websemibold'; margin-left: 20px;} 
 
 /*==============Thanks Css End ====================*/
 /*==============Sorry Css Start===========================*/

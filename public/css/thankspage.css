@@ -1,9 +1,23 @@
+
+
 /*============ Mobi payment logo===============*/
-.navbar-brand.payment{ font-size: 14px; color: #3a3a3a; display: inline-block; vertical-align: bottom; line-height: 35px;   font-family: 'titillium_websemibold'; margin-left: 20px;} 
 /*================ Thanks Block CSS : Start=========================*/
-#thank-block .thanks-image img{ width: 108px; height: 84px; margin-top: 41px;}
-#thank-block .thanks-txt{ font-size: 19px ;   color: #36c07c; font-family: 'titillium_webbold'; margin-top: 10px; font-weight: 600; }
-#thank-block .thanks-para{  font-size: 16px; color: #424242; font-family: 'titillium_webregular'; margin-bottom: 23px; }
-#thank-block .button {border: solid 1px #53c395;  border-radius: 16.4px; width: 187px; height: 32px; margin: 0px  0px 45px 0px; display: inline-block; vertical-align: middle;}
-#thank-block .button a{ text-align: center; color: #545a58;  font-size: 12.8px; outline: none; text-decoration: none; line-height: 32px;  }
+#thank-block .thanks-image img{width: 135px;height: 101px; margin-top: 142px;}
+#thank-block .thanks-txt {font-size: 24px;color: #36c07c;font-family: 'titillium_webbold';margin-top: 13px;font-weight: 600;}
+#thank-block .thanks-para{  font-size: 20px; color: #424242; font-family: 'titillium_webregular'; margin-bottom: 28px; }
+#thank-block .button {border: solid 1px #50c392;  border-radius: 25.4px; width: 234px; height: 41px; margin: 0px  0px 90px 0px; display: inline-block; vertical-align: middle;}
+#thank-block .button a {text-align: center;color: #545a58;font-size: 16px;outline: none;text-decoration: none;line-height: 38px;}
+
+
+@media only screen and (max-width: 768px){
+	#thank-block{ background-image: url("images/bg.png");background-repeat: no-repeat;background-size: cover;background-attachment: inherit;background-position: top, left;}
+	#thank-block .thanks-image img{ width: 135px; height: 101px; margin-top: 122px;}
+	#thank-block .thanks-txt{ font-size: 24px ;  margin-top: 13px; font-weight: 600;}
+	#thank-block .thanks-para{  font-size: 20px; margin-bottom: 28px; }
+	#thank-block .button {  border-radius: 19.5px; width: 234px; height: 41px; margin: 0px  0px 90px 0px;}
+	#thank-block .button a{ font-size: 12.8px; line-height: 41px;  }
+	.ft-block{ margin-top: 0!important }
+}
+
+
 .ft-block{ margin-top: 0!important };
