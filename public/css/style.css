@@ -461,6 +461,7 @@ footer{  background:#202020; display: inline-block; width: 100%; }
     .details-images-blog img {width: 100%; }
     .details-blog .view-all {object-fit: contain;margin: auto;font-size: 16px;font-weight: 600;font-style: normal;font-stretch: normal;letter-spacing: 0.2px;color: #16b667;text-align: center;line-height: 35px;border-radius: 30px;cursor: pointer;}
     .details-blog .view-all a {text-decoration: none;outline: none;margin-left: 0px!important;color: #16b667;height: 36px;width: 100px;line-height: 33px;display: inline-block;margin-bottom: 42px;text-align: center;border: 0px solid #36c07c;font-size: 14px;}
+    .details-side:nth-child(2){margin-left: 11px;margin-top: 0px;}
 }
 /*Payment page */
 .payment-heanding {opacity: 0.4;font-size: 18px;font-weight: normal;font-style: normal;font-stretch: normal;line-height: normal;letter-spacing: normal;text-align: left;color: #262626;    margin-left: 13px;margin-bottom: 23px;margin-top: 44px;}
