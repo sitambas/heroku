@@ -560,6 +560,9 @@ footer{  background:#202020; display: inline-block; width: 100%; }
 .row-payment-details:last-child .col-md-6 {
     padding-bottom: 0px;
 }
+.col-md-8.col-npl.mtop.cart-section {
+    margin-bottom: 125px;
+}
 .cartpage .payment-button {padding: 27px 27px 27px 27px;}
 @media only screen and (max-width: 768px){
     .cartpage .mtop{margin-top: 0px;}
@@ -613,6 +616,9 @@ footer{  background:#202020; display: inline-block; width: 100%; }
     .cart-section .cart-heanding{padding-left: 0px;font-size: 12px;}
     .col-md-4.col-npr.mtop.payment-section {
         padding-left: 0px;
+    }
+    .col-md-8.col-npl.mtop.cart-section {
+        margin-bottom: 0px;
     }
 }
 @media screen and (min-width:768px) and (max-width:1200px){.cart-section .product-cart {width: 48%; text-align: left; display: inline-block; margin-left: 13px;} .cart-section{text-align: left;} .cart-heanding {margin-left: 26px;} .details-row{width: 100%;} .mobi-social-icon{    width: 100%;} .mobi-social-icon .mobi-right-icon{float: right;} .subscribe {float: left;} .subscribe .email-input {width: 100%;} }
